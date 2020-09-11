@@ -1,5 +1,5 @@
 #=================================================
-# https://github.com/P3TERX/Actions-OpenWrt
+# https://github.com/zack-112/lede.git
 # Description: Build OpenWrt using GitHub Actions
 # Lisence: MIT
 # Author: P3TERX
@@ -22,7 +22,7 @@ on:
     types: [started]
 
 env:
-  REPO_URL: https://github.com/Lienol/openwrt
+  REPO_URL: https://github.com/zack-112/lede.git
   REPO_BRANCH: dev-lean-lede
   CONFIG_FILE: .config
   DIY_SH: diy.sh
